@@ -1,0 +1,23 @@
+
+const housesDb = require(`../data/housesDb.js`)
+
+const getHouses = (req, res) => {
+  const houses = housesDb.getAll();
+  res.send(houses);
+}
+
+
+const getHouse = (req, res) => {
+    try {
+        const house = housesDb.getHouse(req.params.id);
+        res.send(house);
+    } catch (error) {
+        res.status(404).json({ error: error.message});
+    }
+    
+ }
+
+module.exports = {
+    getHouses,
+    getHouse,
+}

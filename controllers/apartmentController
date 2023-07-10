@@ -1,0 +1,22 @@
+
+const apartmentsDb = require(`../data/apartmentsDb.js`)
+
+const getApartments = (req, res) => {
+  const apartments = apartmentsDb.getAll();
+  res.send(apartments);
+}
+
+
+const getApartment = (req, res) => {
+  try {
+    const apartment = apartmentsDb.getApartment(req.params.id);
+    res.send(apartment);
+  } catch (error) {
+    res.status(404).json({ error: error.message });
+  }
+}
+  
+module.exports = {
+   getApartments,
+   getApartment,
+}
