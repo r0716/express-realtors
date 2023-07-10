@@ -1,6 +1,6 @@
 # express-realtors
 
-<img src="./pexels-photo-276554.jpeg">
+<img src="./pexels-photo-276554.jpeg" style="width: 700px; height: 400px;">
 
 This project demonstrates the use of Express and JavaScript to create a simple API for managing local apartments and houses. The API provides routes to retrieve a list of apartments, a list of houses, as well as detailed information about individual apartments and houses.
 
