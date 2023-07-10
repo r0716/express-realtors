@@ -1,0 +1,12 @@
+.navbar{
+    margin:10px 10px;
+}
+
+.card{
+    display: flex;
+    margin: 2px;
+}
+
+.card img{
+ height: 15rem;
+}

@@ -32,7 +32,7 @@ const apartments = [
 apartments.forEach((apartment, index) => {
   apartment.id = `apt-${index + 1}`;
 });
- 
+
 
   module.exports = {
  // Return a copy of the apartments array without exposing the IDs
@@ -46,8 +46,9 @@ apartments.forEach((apartment, index) => {
       if (!apartment) {
         throw new Error('Apartment not found');
       }
-      
+
       return apartment;      
     }
   };
+
   

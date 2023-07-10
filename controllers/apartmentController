@@ -15,8 +15,11 @@ const getApartment = (req, res) => {
     res.status(404).json({ error: error.message });
   }
 }
+
+
+
   
 module.exports = {
    getApartments,
-   getApartment,
+   getApartment
 }
