@@ -111,7 +111,7 @@ const cardsListStringHouse = houses.map( (house) =>
     <img src="${house.img}" class="card-img-top" alt="apartment-img">
     <div class="card-body">
       <h5 class="card-title">${house.address} $${house.price}</h5>
-      <p class="card-text"> Amenities: ${house.nearbyAmenities} <br> Close to: ${house.nearbyPlaces} <br> Bedrooms: ${house.numberOfBedrooms} <br> Schools Within Zone: ${house.nearbySchools} </p>
+      <p class="card-text"> Amenities: ${house.nearbyAmenities} <br> Bedrooms: ${house.numberOfBedrooms} <br> Bathrooms: ${house.numberOfBathrooms} <br> Schools Within Zone: ${house.nearbySchools} </p>
     </div>
   </div>`
 )
