@@ -38,4 +38,4 @@ app.get('/houses/:id', houseController.getHouse)
 
 
 
-app.listen(PORT,() => console.log(`Server runnin on ${PORT}`))
+app.listen(PORT,() => console.log(`Server running on ${PORT}`))

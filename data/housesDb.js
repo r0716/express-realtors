@@ -1,5 +1,6 @@
 const houses = [
     {
+      img: 'images/pexels-photo-4450337.jpeg',
       numberOfBedrooms: 3,
       numberOfBathrooms: 2,
       hasPorch: true,
@@ -10,6 +11,7 @@ const houses = [
       nearbyAmenities: ['park', 'grocery store', 'restaurant']
     },
     { 
+      img: 'images/pexels-photo-2227832.jpeg',
       numberOfBedrooms: 4,
       numberOfBathrooms: 3,
       hasPorch: false,
@@ -20,6 +22,7 @@ const houses = [
       nearbyAmenities: ['shopping mall', 'movie theater']
     },
     {
+      img: 'images/pexels-photo-667838.webp',
       numberOfBedrooms: 5,
       numberOfBathrooms: 4,
       hasPorch: true,

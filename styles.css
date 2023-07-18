@@ -2,9 +2,30 @@
     margin:10px 10px;
 }
 
-.card{
+#sectionButtons{
     display: flex;
-    margin: 2px;
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+
+#apartmentsGrid{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    margin: 5rem 5rem;
+}
+
+
+#housesGrid{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    margin: 5rem 5rem;
 }
 
 .card img{
